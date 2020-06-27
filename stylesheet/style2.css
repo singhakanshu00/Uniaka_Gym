@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Teko:300,400&display=swap');
+body{
+	background: linear-gradient(rgba(5, 37, 74, 0.8),rgba(205, 220, 239, 0.5),rgba(5, 37, 74, 0.8));
+}
+header{
+	height: 20vh;
+}
+img{
+	width: 20vw;
+	height: 10vh;
+}
+@media (min-width: 768px){
+	img{
+		width: 10vw;
+	}
+	i{
+		font-size: 2rem;
+	}
+	a{
+		font-size: 2rem;
+		padding-right: 2rem;
+		padding-top: 2rem; 
+	}
+}
+
+i{
+	font-size: 1.5rem;
+}
+.hamburger-menu{
+	position: absolute;
+    right: 2rem;
+    top: 30px;
+}
+a{
+	font-size: 1.5rem;
+	color: #fff;
+	text-decoration: none;
+	transition: all 650ms;
+}
+
+a:hover{
+	color: #c69963;
+	text-decoration: none;
+}
+
+h4{
+	font-family: "Teko", sans-serif;
+	font-size: 2rem;
+	padding: 20px;
+	transform: translateX(50%);
+}
+hr{
+	border-radius: 50%;
+	border-top: solid 4px #000000;
+	margin-right: 2rem;
+	margin-left: 2rem;
+}
+h1{
+	font-family: "Niconne", cursive;
+	padding-top: 40px;
+	padding-left: 40px;
+	color: #c69963;
+}
+p{
+	font-family: cursive;
+	padding-left: 20px;
+}
