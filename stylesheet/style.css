@@ -3,9 +3,10 @@
 a{
 	color: #fff;
 }
-.bofy{
+.body{
 	opacity: 1;
 	transition: opacity 100ms;
+	overflow-x: hidden;
 }
 .body.open{
 	opacity: 0.4;
